@@ -7,6 +7,7 @@ attach.*
 *.exe
 *.iml
 
+
 # Log file
 *.log
 
@@ -23,5 +24,7 @@ attach.*
 **/.gradle
 
 **/.idea
-**/.aa
 
+# autoweb
+!/autoweb/**
+/autoweb/bin/.aa/projects/*

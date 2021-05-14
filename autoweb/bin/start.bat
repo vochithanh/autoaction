@@ -1,0 +1,1 @@
+AutoAction -config=application.conf
