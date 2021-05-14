@@ -1,0 +1,17 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm'
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+
+    // Selenium,Appium
+    implementation "io.appium:java-client:$appiumVer"
+
+    testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:$junitVer"
+    testImplementation "org.junit.jupiter:junit-jupiter-api:$junitVer"
+}
+
+test{
+    // useJUnitPlatform()
+}

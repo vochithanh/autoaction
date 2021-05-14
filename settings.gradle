@@ -1,5 +1,5 @@
 rootProject.name = 'autoaction'
-include 'autoplus','autobot'
+include 'autoplus','autobot','autoant'
 
 dependencyResolutionManagement {
     repositories {
