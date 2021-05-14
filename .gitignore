@@ -1,0 +1,27 @@
+# attach
+attach.*
+*.config
+
+# Compiled file
+*.class
+*.exe
+*.iml
+
+# Log file
+*.log
+
+**/.classpath
+**/.project
+
+**/.settings
+**/target
+**/work
+
+**/output
+**/build
+**/bin
+**/.gradle
+
+**/.idea
+**/.aa
+

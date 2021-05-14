@@ -1,0 +1,14 @@
+Open Google account signup
+Input Auto First Name
+Input Action Last Name
+Input autoaction2020 Username
+Input NoitcaOtua12# Password
+Input NoitcaOtua12# Confirm
+Click Next
+. Waiting form is displayed
+Flag wait.text Phone
+Input 0101010101 Phone
+Click Next
+.You should see the error msg about phone number in browser after last step
+.There would be some capture images under[workspace\output] folder
+Verify This phone number format is not recognized

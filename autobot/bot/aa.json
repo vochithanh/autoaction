@@ -1,0 +1,6 @@
+{
+  "workspacePath": "workspace",
+  "browserString": "firefox",
+  "runScriptOnly": "true",
+  "scriptContent": "demo.chl"
+}

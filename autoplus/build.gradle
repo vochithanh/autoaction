@@ -1,0 +1,31 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm'
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+
+    // Selenium,Appium
+    implementation "io.appium:java-client:$appiumVer"
+
+    // AutoAction lib
+    implementation files("../libs/autoaction-${autoactionVer}-all.jar")
+
+    testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:$junitVer"
+    testImplementation "org.junit.jupiter:junit-jupiter-api:$junitVer"
+}
+
+test {
+    useJUnitPlatform()
+}
+
+jar {
+    destinationDirectory.set(file("../autobot/bot/workspace/plus"))
+}
+
+compileKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}
+compileTestKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}

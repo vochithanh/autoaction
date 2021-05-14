@@ -1,0 +1,7 @@
+{
+  "workspacePath": "workspace",
+  "browserString": "firefox",
+  "runScriptOnly": "true",
+  "scriptContent": "demo.chl",
+  "schedule": {"interval": "1","count": "5"}
+}

@@ -1,0 +1,8 @@
+Open Microsoft account signup
+Input selenium@aa.gcom Create account
+Click iSignupAction
+Input AutoAction12# PasswordInput
+Click iSignupAction
+Input Auto First name
+Input Action Last name
+Click iSignupAction

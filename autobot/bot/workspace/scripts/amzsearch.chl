@@ -1,0 +1,9 @@
+Flag wait.before.next 2
+Open Amazon
+Search Robot
+.Narrow down to product link
+Area s-search-results
+Flag area.continue
+Area data-asin
+Click href
+.Go to product detail page

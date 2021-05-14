@@ -1,0 +1,6 @@
+{
+"workspacePath":"workspace",
+"browserString":"firefox",
+"runScriptOnly":"true",
+"scriptFiles":["workspace/scripts/showcases/fbPostLink.chl"]
+}

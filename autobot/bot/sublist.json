@@ -1,0 +1,9 @@
+{
+  "workspacePath": "workspace",
+  "browserString": "firefox",
+  "runScriptOnly": "true",
+  "subList": [
+    { "scriptFiles": ["part1.chl","part2.chl"] },
+    { "scriptFiles": ["demo.chl"] }
+  ]
+}

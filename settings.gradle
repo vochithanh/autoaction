@@ -1,0 +1,9 @@
+rootProject.name = 'autoaction'
+include 'autoplus','autobot'
+
+dependencyResolutionManagement {
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+}    

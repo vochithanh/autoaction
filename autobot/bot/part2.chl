@@ -1,0 +1,9 @@
+Input January Month
+Input 1 Day
+Input 2000 Year
+Click iSignupAction
+Input 1234 Enter code
+Click iSignupAction
+.You should see the error msg about verify code in browser after last step
+.There would be some capture images under[workspace\output] folder
+Verify That code didn't work. Check the code and try again.

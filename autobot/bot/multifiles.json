@@ -1,0 +1,6 @@
+{
+  "workspacePath": "workspace",
+  "browserString": "firefox",
+  "runScriptOnly": "true",
+  "scriptFiles": ["part1.chl","part2.chl"]
+}

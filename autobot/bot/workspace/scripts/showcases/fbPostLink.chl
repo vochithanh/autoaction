@@ -1,0 +1,19 @@
+.Browser must be logged in Facebook already
+. for Firefox, we can use "profile", please change the Firefox profile in .\bot\workspace\drivers\firefox.config file [profile = default-release]
+1. get the url of news
+Open Vnexpress24h
+Area data-offset
+Click data-medium
+Wait 10
+. save the current url of news to [export.vn24news]
+Export export.vn24news url
+
+2. Post link to facebook
+. 10 seconds for facebook processing
+Flag wait.before.next 10
+Open Facebook site
+Area role="main"
+Click role="button"
+. type the url and "space" to let facebook load the content of page in url
+Flag key.in export.vn24news, wait.before.next 15, key.in _space, key.in ctl-enter
+Quit

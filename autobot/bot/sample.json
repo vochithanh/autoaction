@@ -1,0 +1,6 @@
+{
+"workspacePath":"workspace",
+"browserString":"firefox",
+"runScriptOnly":"true",
+"scriptContent":"workspace/scripts/gooacc.chl"
+}
