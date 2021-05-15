@@ -23,7 +23,7 @@ Search Robot
 - Browser and browser driver (in case the browsers are installed at different machine, please refer to [Selenium Grid](https://www.selenium.dev/documentation/en/grid/), [Selenium Grid config sample](https://developers.perfectomobile.com/pages/viewpage.action?pageId=21435360) and skip this step)
 
 ## Install browser and driver
-`AutoAction` is build from `Selenium` so it need browsers and associated drivers are required to be installed at the local machine for working.
+`AutoAction` is built from `Selenium` so it need browsers and associated drivers are required to be installed at the local machine for working.
 
 - Firefox: 
     - Browser: http://getfirefox.com/
@@ -31,7 +31,8 @@ Search Robot
 
 - Chrome
     - Browser: from Google site
-    - Chrome driver: https://chromedriver.storage.googleapis.com/index.html (remember to choose the correct driver version for your current Chrome browser, if your Chrome browser is updated to the next version then you should update the driver too), copy driver file (e.g chromedriver.exe) to `autobot/bot/workspace/drivers` folder
+    - Chrome driver: https://chromedriver.storage.googleapis.com/index.html (:warning: please choose the correct driver version for your current Chrome browser, if your Chrome browser is updated to the next version then you should update the driver too), copy driver file (e.g chromedriver.exe) to `autobot/bot/workspace/drivers` folder
+
 - Edge
     - Browser: https://www.microsoft.com/en-us/edge
     - Edge driver: https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/, copy driver file (e.g MicrosoftWebDriver.exe) to `autobot/bot/workspace/drivers` folder
@@ -40,10 +41,10 @@ Search Robot
 
 # Where to go
 After ***JDK, browser*** are installed and ***driver*** are copied to [drivers folder](/autobot/bot/workspace/drivers) folder, you are ready to:
-- Use [AutoBot](/autobot) to run the `AutoAction` script files from command line
-- Use [AutoWeb](/autoweb) to manage and run `AutoAction` scripts from web app
-- [AutoPlus](/autoplus) sample to extends the framework
-- Love to code automation test script by Java programming language please go to [AutoAnt](/autoant)
+- Use [AutoBot](/autobot) to run the `AutoAction` script files from command line :rat:
+- Use [AutoWeb](/autoweb) to manage and run `AutoAction` scripts from web app :elephant:
+- [AutoPlus](/autoplus) sample to extends the framework :butterfly:
+- Love to code automation test script by Java programming language please go to [AutoAnt](/autoant) :ant:
 
 # AutoAction syntax
 Each line in script is an action. Currently, below list is the supported actions:
@@ -61,9 +62,9 @@ Each line in script is an action. Currently, below list is the supported actions
 |Quit| |Close browser. This command must be the last action.|**Quit**|
 
 
-System would skip all lines which contains unsupported actions.
+:do_not_litter: System would skip all lines which contains unsupported actions.
 
-To make the script more readable, the complex text (e.g. url, value with spaces) can be put in dictionary files (any file with extension *.dic) with format: key = value. Please refer to sample dictionarie file under `bot/workspace/scripts` folder: `url.dic`.
+To make the script more readable, the complex text (e.g. url, value with spaces) can be put in dictionary files (any file with extension *.dic) with format: key = value. Please refer to sample dictionary file under `autobot/bot/workspace/scripts` folder: `url.dic`.
 
 # Showcases
 ## Post link to Facebook
@@ -71,6 +72,3 @@ To make the script more readable, the complex text (e.g. url, value with spaces)
 
 Script file [fbPostLink](autobot/bot/workspace/scripts/showcases/fbPostLink.chl)
 
-:warning: Normally, when a session start it will run a fresh browser, but this case we need a browser which must be logged in Facebook already. To overcome this one, we can use "profile", please change the Firefox profile( the default would be "default" or "default-release") in [firefox.config](bot/workspace/drivers/firefox.config)
-
-`java -jar  autoactionbot-1.0-all.jar facebook.json`
