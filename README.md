@@ -1,7 +1,7 @@
 # AutoAction
 `AutoAction` is an automation framework build on `Selenium`, it is used for:
 1. Execute the actions (via flat line script) on web page automatically
-2. Build up efficient, quick-start Automation Test projects
+2. Build up efficient, quick-start Automation Test projects by handling 80% common tasks (you would take the rest 20% :banana:)
 
 For example, if you want to do the following actions in browser: Open Amazon website and search with a keyword "Robot". You just write only 2 lines as below:
 ```
@@ -14,8 +14,8 @@ Search Robot
 
 |  |   |   |   |   |
 |---|---|---|---|---|
-| [AutoBot](\autobot) [AutoWeb](\autoweb)
-| AutoAction [AutoPlus](\autoplus) [AutoAnt](\autoant)
+| [AutoBot](autobot) [AutoWeb](autoweb)
+| AutoAction [AutoPlus](autoplus) [AutoAnt](autoant)
 | Selenium | <-----> |Driver| <-----> |Browser
 
 # Prerequisites
@@ -40,11 +40,11 @@ Search Robot
 :biohazard: **DO NOT** change the name of driver file else tool can not find the driver when running. For more details about web driver please refer to: https://www.selenium.dev/documentation/en/webdriver/driver_requirements/
 
 # Where to go
-After ***JDK, browser*** are installed and ***driver*** are copied to [drivers folder](/autobot/bot/workspace/drivers) folder, you are ready to:
-- Use [AutoBot](/autobot) to run the `AutoAction` script files from command line :rat:
-- Use [AutoWeb](/autoweb) to manage and run `AutoAction` scripts from web app :elephant:
-- [AutoPlus](/autoplus) sample to extends the framework :butterfly:
-- Love to code test script by Java programming language please go to [AutoAnt](/autoant) :ant:
+After ***JDK, browser*** are installed and ***driver*** are copied to [drivers folder](autobot/bot/workspace/drivers) folder, it is ready to:
+- Use [AutoBot](autobot) to run the `AutoAction` script files from command line :rat:
+- Use [AutoWeb](autoweb) to manage and run `AutoAction` scripts from web app :elephant:
+- [AutoPlus](autoplus) sample to extends the framework :butterfly:
+- Love to code test script by Java programming language please go to [AutoAnt](autoant) :ant:
 
 # AutoAction syntax
 Each line in script is an action. Currently, below list is the supported actions:
@@ -77,5 +77,3 @@ To make the script more readable, the complex text (e.g. url, value with spaces)
 :tv: [Lab app - Regsiter account](https://youtu.be/dYFkBcTAJ7U)
 
 :tv: [Post link to Facebook](https://youtu.be/eJSgX2IfDSY)
-Script file [fbPostLink](autobot/bot/workspace/scripts/showcases/fbPostLink.chl)
-
