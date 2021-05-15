@@ -44,7 +44,7 @@ After ***JDK, browser*** are installed and ***driver*** are copied to [drivers f
 - Use [AutoBot](/autobot) to run the `AutoAction` script files from command line :rat:
 - Use [AutoWeb](/autoweb) to manage and run `AutoAction` scripts from web app :elephant:
 - [AutoPlus](/autoplus) sample to extends the framework :butterfly:
-- Love to code automation test script by Java programming language please go to [AutoAnt](/autoant) :ant:
+- Love to code test script by Java programming language please go to [AutoAnt](/autoant) :ant:
 
 # AutoAction syntax
 Each line in script is an action. Currently, below list is the supported actions:
@@ -67,8 +67,15 @@ Each line in script is an action. Currently, below list is the supported actions
 To make the script more readable, the complex text (e.g. url, value with spaces) can be put in dictionary files (any file with extension *.dic) with format: key = value. Please refer to sample dictionary file under `autobot/bot/workspace/scripts` folder: `url.dic`.
 
 # Showcases
-## Post link to Facebook
-:tv: https://youtu.be/eJSgX2IfDSY
 
+:tv: [Demo search on Amazon](https://youtu.be/YLVLYqCjPn0)
+
+:tv: [Lab app - Buy a product](https://youtu.be/A_MoaVehx68)
+
+:tv: [Lab app - Buy a dress](https://youtu.be/-mJ2KX6f424)
+
+:tv: [Lab app - Regsiter account](https://youtu.be/dYFkBcTAJ7U)
+
+:tv: [Post link to Facebook](https://youtu.be/eJSgX2IfDSY)
 Script file [fbPostLink](autobot/bot/workspace/scripts/showcases/fbPostLink.chl)
 
