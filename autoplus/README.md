@@ -8,11 +8,11 @@ e.g. `***###@***.com` would be `abc123@acb.com`
 
 # How to do
 - Extends current actions from `AutoAction` framework (this case is `ActionInput` )
-- Create new file with extension *.amap (this case is [plus.amap](\autobot\bot\workspace\plus\plus.amap) )to register new action
-- Create new file with extension *.param (this case is [plus.param](\autobot\bot\workspace\plus\plus.param) ) to tell system how to parse the params of this action based on regular expression syntax.
+- Create new file with extension *.amap (this case is `\autobot\bot\workspace\plus\plus.amap` )to register new action
+- Create new file with extension *.param (this case is `\autobot\bot\workspace\plus\plus.param` ) to tell system how to parse the params of this action based on regular expression syntax.
 
 # Deploy
-- Create a folder under `\autobot\bot\workspace` (this case is [plus](\autobot\bot\workspace\plus) )
-- Run gradle `jar` task to generate jar file (this case the jar file destination is [autoplus.jar](\autobot\bot\workspace\plus\autoplus.jar))
+- Create a folder under `\autobot\bot\workspace` (this case is `\autobot\bot\workspace\plus` )
+- Run gradle `jar` task to generate jar file (this case the jar file destination is `\autobot\bot\workspace\plus\autoplus.jar`)
 - Done and enjoy the new action :banana:
 

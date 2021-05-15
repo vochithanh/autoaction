@@ -27,6 +27,7 @@ Search Robot
 
 ## Config file
 You can run tool with selected config file: `java -jar  autoactionbot-1.0-all.jar [config_file]`
+
 E.g. `java -jar  autoactionbot-1.0-all.jar sample.json`
 
 `[config_file]` (a json file) parameters:
