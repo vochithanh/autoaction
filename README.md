@@ -1,6 +1,6 @@
-# AutoActionBot
-`AutoActionBot` is a tool based on `AutoAction` framework (build on `Selenium` framework), it is used for:
-1. Execute the actions (flat line script) on web page automatically
+# AutoAction
+`AutoAction` is a automation framework build on `Selenium`, it is used for:
+1. Execute the actions (via flat line script) on web page automatically
 2. Build up efficient, quick-start Automation Test projects
 
 For example, if you want to do the following actions in browser: Open Amazon website and search with a keyword "Robot". You just write only 2 lines as below:
@@ -14,34 +14,32 @@ Search Robot
 
 |  |   |   |   |   |
 |---|---|---|---|---|
-| AutoActionBot
-| AutoAction
+| [AutoBot](\autobot) [AutoWeb](\autoweb)
+| AutoAction [AutoPlus](\autoplus) [AutoAnt](\autoant)
 | Selenium | <-----> |Driver| <-----> |Browser
-
-
 
 # Prerequisites
 - Java: JDK8+
 - Browser and browser driver (in case the browsers are installed at different machine, please refer to [Selenium Grid](https://www.selenium.dev/documentation/en/grid/), [Selenium Grid config sample](https://developers.perfectomobile.com/pages/viewpage.action?pageId=21435360) and skip this step)
 
 ## Install browser and driver
-AutoActionBot will open real browser and execute the actions, so the browser and associated driver are required to be installed at the local machine
+`AutoAction` is build from `Selenium` so it need browsers and associated drivers are required to be installed at the local machine for working.
 
 - Firefox: 
     - Browser: http://getfirefox.com/
-    - Firefox driver: https://github.com/mozilla/geckodriver/releases (For Window Vista/Windows 8, there are issues with the few recent versions, please get the version 0.17.0 https://github.com/mozilla/geckodriver/releases/tag/v0.17.0), copy driver file (e.g geckodriver.exe) to `bot/workspace/drivers` folder
+    - Firefox driver: https://github.com/mozilla/geckodriver/releases (For Window Vista/Windows 8, there are issues with the few recent versions, please get the version 0.17.0 https://github.com/mozilla/geckodriver/releases/tag/v0.17.0), copy driver file (e.g geckodriver.exe) to `autobot/bot/workspace/drivers` folder
 
 - Chrome
     - Browser: from Google site
-    - Chrome driver: https://chromedriver.storage.googleapis.com/index.html (remember to choose the correct driver version for your current Chrome browser, if your Chrome browser is updated to the next version then you should update the driver too), copy driver file (e.g chromedriver.exe) to `bot/workspace/drivers` folder
+    - Chrome driver: https://chromedriver.storage.googleapis.com/index.html (remember to choose the correct driver version for your current Chrome browser, if your Chrome browser is updated to the next version then you should update the driver too), copy driver file (e.g chromedriver.exe) to `autobot/bot/workspace/drivers` folder
 - Edge
     - Browser: https://www.microsoft.com/en-us/edge
-    - Edge driver: https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/, copy driver file (e.g MicrosoftWebDriver.exe) to `bot/workspace/drivers` folder
+    - Edge driver: https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/, copy driver file (e.g MicrosoftWebDriver.exe) to `autobot/bot/workspace/drivers` folder
     
-**DO NOT** change the name of driver file else tool can not find the driver when running. For more details about web driver please refer to: https://www.selenium.dev/documentation/en/webdriver/driver_requirements/
+:biohazard: **DO NOT** change the name of driver file else tool can not find the driver when running. For more details about web driver please refer to: https://www.selenium.dev/documentation/en/webdriver/driver_requirements/
 
 # Run AutoActionBot
-After ***JDK, browser*** are installed and ***driver*** are copied to `bot/workspace/drivers` folder, you can run the tool now
+After ***JDK, browser*** are installed and ***driver*** are copied to `autobot/bot/workspace/drivers` folder, you can run the tool now
 - Go to `bot` folder
 - Run `java -jar  autoactionbot-1.0-all.jar`
 
