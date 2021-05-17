@@ -1,4 +1,0 @@
-﻿Input = \S+(?=\s+)|.+
-Search = \S+(?=\s+)|.+
-Export = \S+(?=\s+)|.+
-Upload = \S+(?=\s+)|.+
