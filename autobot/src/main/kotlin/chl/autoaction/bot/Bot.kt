@@ -35,7 +35,7 @@ fun run(botPass:BotPass?):Unit? = botPass?.run{
     // only run if final script not empty
     finalScript.isNotEmpty().runIf {
         val result = GateBoss.run(GatePass(browserString, rootPath(workspacePath), finalScript, isRunScriptOnly))
-        println(result)
+        println(result.report(null))
     }
 
     // run subList

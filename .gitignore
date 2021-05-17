@@ -28,3 +28,8 @@ attach.*
 # autoweb
 !/autoweb/**
 /autoweb/bin/.aa/projects/*
+/autoweb/bin/test.*
+/autoweb/bin/.aa/test
+
+# autobot
+/autobot/bot/test
