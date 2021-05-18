@@ -77,3 +77,5 @@ To make the script more readable, the complex text (e.g. url, value with spaces)
 :tv: [Lab app - Regsiter account](https://youtu.be/dYFkBcTAJ7U)
 
 :tv: [Post link to Facebook](https://youtu.be/eJSgX2IfDSY)
+
+:tv: [OrangeHRM - Apply leave](https://youtu.be/9DZmq-LIubk)
