@@ -18,6 +18,10 @@ public class ActionContext {
 	protected Map<String,String> dataMap = new HashMap<>();
 	protected List<String> actionLogs; // logging the auto actions
 	
+	public List<String> getActionLogs() {
+		return actionLogs;
+	}
+
 	public ActionContext(final WebDriver driver) {
 		this.driver = driver;
 		initActionLogs();
@@ -48,6 +52,7 @@ public class ActionContext {
 	}
 	
 	public void logAction(final String log) {
+		System.out.println(log);
 		actionLogs.add(log);
 	}
 	
@@ -63,6 +68,6 @@ public class ActionContext {
 	}
 	
 	public void printActionLogs() {
-		System.out.println(actionLogs.toString());
+		actionLogs.forEach(System.out::println);
 	}
 }

@@ -13,5 +13,12 @@ dependencies {
 }
 
 test{
-    // useJUnitPlatform()
+    useJUnitPlatform()
+    testLogging {
+        events "PASSED", "SKIPPED", "FAILED"
+        outputs.upToDateWhen {false}
+        showStandardStreams = true
+        showExceptions = true        
+        showStackTraces = true
+    }    
 }

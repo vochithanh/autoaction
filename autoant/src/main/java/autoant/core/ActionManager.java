@@ -25,7 +25,8 @@ public class ActionManager {
 	}
 
 	public Predicate<WebElement> VISIBLE_FILTER = e -> {
-		return !ExpectedConditions.stalenessOf(e).apply(context.driver) && e.isEnabled() && e.isDisplayed() && (e.getSize().getWidth() > 1 || e.getSize().getHeight() > 1);
+		//return !ExpectedConditions.stalenessOf(e).apply(context.driver) && e.isEnabled() && e.isDisplayed() && (e.getSize().getWidth() > 1 || e.getSize().getHeight() > 1);
+		return !ExpectedConditions.stalenessOf(e).apply(context.driver) && e.isEnabled() && e.isDisplayed();
 	};// filter for only visible element
 	
 	/*
@@ -109,7 +110,7 @@ public class ActionManager {
 			ElementHelper.click(context.driver,element);
 			context.logAction(String.format(ACTION_LOG_FORMAT,"Click", text));
 		}else {
-			context.logAction(String.format(ACTION_LOG_FORMAT,"[FAIL] - Click", text));
+			context.logAction(String.format(ACTION_LOG_FORMAT,"[FAIL] - Click", tagName + "," + text));
 			isFailStep = true;
 		}
 		return this;
@@ -190,23 +191,6 @@ public class ActionManager {
 		return context;
 	}	
 	
-	/*
-	 * Waiting for the page is ready.
-	 */
-	public ActionManager waitForLoad() {
-		final WebDriver driver = context.getDriver();
-		ExpectedCondition<Boolean> pageLoadCondition = new
-				ExpectedCondition<Boolean>() {
-			@Override
-			public Boolean apply(WebDriver driver) {
-				return ((JavascriptExecutor)driver).executeScript("return document.readyState").equals("complete");
-			}
-		};
-		WebDriverWait wait = new WebDriverWait(driver, WAIT_LOAD_TIMEOUT);
-		wait.until(pageLoadCondition);
-		
-		return this;
-	}	
 	
 	/*
 	 * Waiting for the page is ready and display the text
