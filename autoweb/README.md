@@ -25,3 +25,6 @@ The default working url is `http://localhost:8080`.
 - Click the green Camera icon to run the task: system would launch Chrome browser and open Google page
 
 Please run other tasks in `Demo` and `Intro myself` and refer to [AutoAction syntax](https://github.com/vochithanh/autoaction#autoaction-syntax) to know how to write the scripts.
+
+# Modify front end site
+The front end site is built by ReactJS and final result is in `bin\.aa\build` folder. In case you want to change the front end site ( ReactJS ) please touch in `autoreact` and copy the the final result to above folder.
