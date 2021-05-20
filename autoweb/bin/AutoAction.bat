@@ -54,7 +54,7 @@ set CMD_LINE_ARGS=%*
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\*
+set CLASSPATH=%APP_HOME%\lib\*;%APP_HOME%\..\libs\*
 
 @rem Execute AutoAction
 java %DEFAULT_JVM_OPTS% %JAVA_OPTS% %AUTO_ACTION_OPTS%  -classpath "%CLASSPATH%" io.ktor.server.netty.DevelopmentEngine %CMD_LINE_ARGS%
