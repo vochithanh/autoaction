@@ -68,6 +68,8 @@ To make the script more readable, the complex text (e.g. url, value with spaces)
 
 # Showcases
 
+:tv: [Search jobs on Upwork](https://youtu.be/W50I5uRmiY8)
+
 :tv: [Demo search on Amazon](https://youtu.be/YLVLYqCjPn0)
 
 :tv: [Lab app - Buy a product](https://youtu.be/A_MoaVehx68)

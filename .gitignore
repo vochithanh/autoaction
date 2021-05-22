@@ -33,3 +33,4 @@ attach.*
 
 # autobot
 /autobot/bot/test
+autobot/bot/workspace/scripts/local/*
