@@ -1,1 +1,2 @@
 InputR = chl.autoaction.plus.ActionInputR
+Repeat = chl.autoaction.plus.loop.ActionRepeat

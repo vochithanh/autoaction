@@ -12,6 +12,7 @@ import java.io.File;
 import java.util.Arrays;
 
 public class TestAction extends TestBase {
+    public final static String DUMMY = "";
     public final static String FLASH = "Flag basic.border.element 2";
     public final static String CAPTURE = "Flag basic.capture.element true";
     public final static String RECORDER_START = "Flag max.screen start, screen.recorder start 0 100 avi";

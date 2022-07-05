@@ -16,10 +16,10 @@ Detect = chl.action.loop.ActionDetect
 Page = chl.action.loop.ActionPage
 Fork = chl.action.loop.ActionFork
 
-Verify = chl.action.verify.ActionVerify
+.Verify = chl.action.verify.ActionVerify
 Monitor = chl.action.verify.ActionMonitor
 
 Region = sln.app.action.form.ActionRegion
-.Verify = sln.app.action.verify.ActionVerify
+Verify = sln.app.action.verify.ActionVerify
 Wait = sln.app.action.verify.ActionWait
 Session = sln.app.action.verify.ActionSession

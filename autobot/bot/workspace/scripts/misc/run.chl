@@ -1,0 +1,9 @@
+# Get Module 8 result
+Area Module 8 Exam
+Flag area.up 3, area.down 1
+# Capture the result to flag key: module8_review
+Export module8_review from_area
+Flag verify.key module8_review
+
+# Comparing the score in 2 keys: module8_score and module8_review
+Verify module8_score
