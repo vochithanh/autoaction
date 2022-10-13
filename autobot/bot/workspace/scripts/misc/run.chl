@@ -1,9 +1,26 @@
-# Get Module 8 result
-Area Module 8 Exam
-Flag area.up 3, area.down 1
-# Capture the result to flag key: module8_review
-Export module8_review from_area
-Flag verify.key module8_review
+Tab 2
 
-# Comparing the score in 2 keys: module8_score and module8_review
-Verify module8_score
+# Type 1
+.Area content
+
+# Type 2
+.Area Performance Report
+.Flag area.up 2
+.Flag area.continue true
+.Area o-els-container
+
+Links
+Flag click.option ctl
+# Action for link
+Click
+
+Wait 2
+Tab 1
+# Action for new tab
+Wait 5
+
+# Back to previous and close new tab
+Tab -1
+Close 1
+
+Fork

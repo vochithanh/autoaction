@@ -1,2 +1,5 @@
+Smoke = chl.autoaction.plus.ActionSmoke
+BadLink = chl.autoaction.plus.ActionBadLink
 InputR = chl.autoaction.plus.ActionInputR
 Repeat = chl.autoaction.plus.loop.ActionRepeat
+Links = chl.autoaction.plus.loop.ActionLinks

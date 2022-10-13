@@ -29,4 +29,7 @@ internal class BotKtTest {
 
     @Test
     fun mainRepeat(){ main(arrayOf("repeat.json")) }
+
+    @Test
+    fun testSmoke(){ main(arrayOf("smoke.json")) }
 }
