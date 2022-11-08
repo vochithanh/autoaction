@@ -34,3 +34,4 @@ attach.*
 # autobot
 /autobot/bot/test
 autobot/bot/workspace/scripts/local/*
+autobot/bot/workspace/elsier
