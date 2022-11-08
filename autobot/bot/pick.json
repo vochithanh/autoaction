@@ -1,0 +1,6 @@
+{
+"workspacePath":"workspace",
+"browserString":"chrome",
+"runScriptOnly":"true",
+"scriptFiles": ["showup.chl","pick.chl"]
+}
