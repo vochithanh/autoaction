@@ -9,7 +9,7 @@ import vlin.coCsv
 class ActionRepeat(context: Context, params: List<String>) : ActionLoop(context, params) {
     override fun lookup() {
         super.lookup()
-        val count = param.toInt()
+        val count = helper.getContextValue(param).toInt()
         subActions = IntRange(0,count).map { ActionRow(context, params) }
     }
 

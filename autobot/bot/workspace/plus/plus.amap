@@ -1,3 +1,4 @@
+Pick = chl.autoaction.plus.ActionPick
 Smoke = chl.autoaction.plus.ActionSmoke
 BadLink = chl.autoaction.plus.ActionBadLink
 InputR = chl.autoaction.plus.ActionInputR
