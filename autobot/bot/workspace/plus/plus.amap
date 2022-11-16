@@ -1,3 +1,5 @@
+Continue = chl.autoaction.plus.ActionContinue
+Expected = chl.autoaction.plus.ActionExpected
 Pick = chl.autoaction.plus.ActionPick
 Smoke = chl.autoaction.plus.ActionSmoke
 BadLink = chl.autoaction.plus.ActionBadLink

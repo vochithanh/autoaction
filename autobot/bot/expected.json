@@ -1,0 +1,6 @@
+{
+"workspacePath":"workspace",
+"browserString":"attach.action",
+"runScriptOnly":"true",
+"scriptFiles": ["showup.chl","expected.chl"]
+}

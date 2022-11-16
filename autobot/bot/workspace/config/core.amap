@@ -10,6 +10,7 @@ Area = chl.action.area.ActionArea
 
 Flag = chl.action.data.ActionFlag
 Export = chl.action.data.ActionExport
+Row = chl.action.data.ActionRow
 
 Table = chl.action.loop.ActionTable
 Detect = chl.action.loop.ActionDetect

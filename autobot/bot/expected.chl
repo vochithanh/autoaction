@@ -1,0 +1,6 @@
+.Tab 1
+Area fullWindowModal
+Flag area.continue true
+Area c-els-button--primary
+Expected Start Resume
+Area

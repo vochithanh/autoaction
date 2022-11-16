@@ -35,4 +35,7 @@ internal class BotKtTest {
 
     @Test
     fun testPick(){ main(arrayOf("pick.json")) }
+
+    @Test
+    fun testExpected(){ main(arrayOf("expected.json")) }
 }
